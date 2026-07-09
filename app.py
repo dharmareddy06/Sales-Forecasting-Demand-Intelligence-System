@@ -270,7 +270,7 @@ else:
             st.sidebar.error(f"Error reading CSV: {e}")
 
 if raw_df is None:
-    st.info("👋 Welcome! Please upload your dataset using the sidebar to begin, or select 'Demo Data (SuperStore.csv)' to explore the system with demo metrics.")
+    st.info("Welcome! Please upload your dataset using the sidebar to begin, or select 'Demo Data (SuperStore.csv)' to explore the system with demo metrics.")
     st.stop()
 
 # Helper function to assign season
